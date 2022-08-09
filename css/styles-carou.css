@@ -16,7 +16,9 @@ body {
   width:50%;
   height: 350px;
   position: relative;
-  top: 6.2em;
+  top: 1em;
+  right: 10px;
+  float: right;
 }
 
 .carousel > ul {
@@ -34,7 +36,7 @@ body {
 }
 
 .slide > img {
-  border-radius: 15px;
+  border-radius: 10px;
   display: block;
   width: 100%;
   height: 100%;

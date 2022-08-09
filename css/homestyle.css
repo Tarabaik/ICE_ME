@@ -1,0 +1,20 @@
+.titile{
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
+    padding-left: 3.5em;
+    top: 6.1rem;
+}
+.titile > a{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+.titile > a >h2{
+    background-color: #D72323;
+    border-radius: 5px;
+    padding-top: 12.5px;
+    height: 60px;
+    width: 170px;
+    text-align: center;
+}
