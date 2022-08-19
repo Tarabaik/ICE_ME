@@ -2,7 +2,14 @@ body{
     background-color: #0c1412;
     /* background-color: #060611; */
 }
-
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+  }
 nav {
     background-color: #000000 ;
     position: relative;
