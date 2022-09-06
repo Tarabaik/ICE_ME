@@ -18,6 +18,12 @@
     margin: 25px;
     padding: 5px;
 }
+.summary2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+  margin: 25px;
+  padding: 5px;
+}
 .col-md-1{
     padding: 2px;
     margin: 25px;
@@ -32,9 +38,10 @@
 }
 .container2card {
   display: flex;
-  width: 1040px;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  margin:11px;
+  padding:1px;
+  text-align: justify;
 }
 .card {
   margin: 10px;
@@ -99,3 +106,6 @@
 .user-info small {
   color: #545d7a;
 }
+/* layout */
+
+/* Typography */
