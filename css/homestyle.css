@@ -18,3 +18,11 @@
     width: 170px;
     text-align: center;
 }
+#locations{
+    margin-top: 4em;
+}
+#loca_map{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}

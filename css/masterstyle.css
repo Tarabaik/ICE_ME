@@ -44,15 +44,15 @@ nav ol li#c_name img{
 #aboutus{
     position: relative;
     float: right;
-    top: 2.4em;
-    padding-right: 2em;
+    top: 1em;
+    padding-right: 3em;
 }
 
-#product{
+#contact_us{
     position: relative;
-    top: 2.4em;
+    top: 1em;
     float: right;
-    padding-right: 2em;
+    padding-right: 9em;
 }
 nav > ol > li:last-child{
     position: relative;
