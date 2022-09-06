@@ -1,7 +1,10 @@
+body{
+  background-color: black;
+  color: white;
+}
+
 .wrapper1 {
     background: fixed;
-    background-color: #826F66;
-
 }
 
 .container1{
@@ -10,7 +13,7 @@
     display: flexbox;
     justify-content: center;
     position: relative;
-
+    color: black;
 }
 .summary1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -50,6 +53,7 @@
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 300px;
+  color: black;
 }
 .card-header img {
   width: 100%;
