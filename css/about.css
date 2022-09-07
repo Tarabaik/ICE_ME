@@ -113,3 +113,8 @@ body{
 /* layout */
 
 /* Typography */
+#ft_non_vormal{
+  object-fit: cover;
+  width: 40px;
+  height: 40px
+}
