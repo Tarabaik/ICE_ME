@@ -1,19 +1,19 @@
 body{
-  background-color: black;
   color: white;
 }
 
 .wrapper1 {
     background: fixed;
+    background-color: #0c1412;
 }
 
 .container1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    display: flexbox;
+    display: flex;
     justify-content: center;
     position: relative;
-    color: black;
+
 }
 .summary1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
