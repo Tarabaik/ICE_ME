@@ -282,3 +282,223 @@ body {
 .carousel-button.next {
   right: 1rem;
 }
+/* homestyle */
+/* for root */
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+/* ------------------ */
+.titile{
+  color: white;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  position: relative;
+  padding-left: 3.5em;
+  top: 6.1rem;
+}
+.titile > a{
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+.titile > a >h2{
+  background-color: #D72323;
+  border-radius: 5px;
+  padding-top: 12.5px;
+  height: 60px;
+  width: 170px;
+  text-align: center;
+}
+/* ========= */
+#img_one{
+  position: relative;
+  float: right;
+  top: 4.2em;
+  margin-right: 4em;
+  border-radius: 10px;
+}
+
+/* locations sections */
+#locations{
+  margin-top: 4em;
+}
+#loca_map{
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+#locations ol li{
+  display: inline-block;
+}
+#locations ol li#info{
+  background-color: wheat;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  float: right;
+  right: 3em;
+  padding-left:5em ;
+  padding-top: 5.5em;
+}
+/* styes carosel */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* carousel 1 */
+.carousel {
+  width:50%;
+  height: 350px;
+  position: relative;
+  top: 1em;
+  right: 10px;
+  float: right;
+}
+/* carousel 2 */
+.carousel-two{
+  width: 100%;;
+  height: 660px;
+  position: relative;
+  margin-top: 16em;
+}
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide > img {
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 2em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, .5);
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: 0 .5rem;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+/* styles carousel main */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.carousel {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 2em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, .5);
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: 0 .5rem;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
